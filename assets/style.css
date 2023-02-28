@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.5px;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.menu a{
+    text-decoration: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    color: crimson;
+}
+
+.section{
+    margin-top: 150px;
+    background-color: #fff;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.style_btn{
+    padding: 10px 20px;
+    color: #fff;
+    background-color: crimson;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.pseudo form{
+    display: flex;
+    flex-direction: column;
+}
+
+.pseudo form label{
+    margin-top: 10px;
+}
+
+.pseudo form input{
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    margin: 20px;
+    width: 350px;
+    padding: 10px 0;
+}
+
+.cate form{
+    text-decoration: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+    padding: 0 20px;
+    transition: 0.5s;
+    margin-top: 150px;
+    background-color: #fff;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.cate form:hover{
+    color: red;
+}
+
+.cate form select{
+ margin-top: 10px;
+}
+
+.cate form option{
+    margin-left: 10px;
+   }
+
+.cate form input{
+    margin-top: 10px;
+}
+
+.ques{
+    margin-top: 100px;
+    width: 50%;
+
+}
+
+.question{
+    margin: 10px 0;
+}
+
+.ques form .style_btn{
+    padding: 10px 30px;
+    margin-top: 25px;
+    margin-left: -22px;
+}
+
+.score{
+    text-decoration: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+    padding: 0 20px;
+    transition: 0.5s;
+    margin-top: 150px;
+    background-color: #fff;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
